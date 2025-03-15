@@ -1,12 +1,17 @@
 # Experiment-4
-## Write the test cases for any known application. (e.g. Banking Application)
-# Aim: To detect fraudulent activities based on past spending patterns using machine learning
+## ARMSTRONG NUMBER 
+# Aim: Write a python program to check the number is Armstrong number or not and inspect for failures. 
 
 # Algorithm
-1.	Collect data on user transactions (time, amount, location, merchant, etc.).
-2.	Use a classification algorithm like Random Forest or Neural Networks to predict if a transaction is fraudulent.
-3.	Based on the prediction, flag the transaction as suspicious if the probability exceeds a threshold.
-4.	Notify the user if a suspicious activity is detected.
+1.	Start the program.
+2. Read an integer input number.
+3. Initialize the variables current_digit, sum = 0, and num = number.
+4. Repeat Steps 5 to 7 until num > 0
+5. current_digit = (num % 10).
+6. sum = sum + (current_digit * current_digit * current_digit). 7. Stop the program.
+7. num = num / 10.
+8. Check if sum == number. If true, print "It is an Armstrong Number." Otherwise, print "It is not an Armstrong Number."
+9. Stop the program. 
 
 # Program
 
